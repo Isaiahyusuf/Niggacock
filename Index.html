@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$NIGGACOCK</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">$NIGGACOCK</h1>
+    <p class="subtitle">Big balls. Bigger dreams.</p>
+
+    <p class="description">
+      $NIGGACOCK is more than a meme — it's a wild ride through the internet's funniest corners. If you're not holding, you're missing out on history. The cock that crows louder in every bull run.
+    </p>
+
+    <div class="buttons">
+      <a href="#" class="social-button telegram">Join Telegram</a>
+      <a href="#" class="social-button twitter">Follow Twitter</a>
+    </div>
+
+    <div class="contract-section">
+      <p>Contract Address:</p>
+      <div class="contract-box">
+        <input type="text" value="0x0000000000000000000000000000000000000000" id="contractInput" readonly />
+        <button onclick="copyCA()">Copy</button>
+      </div>
+    </div>
+
+    <div class="roadmap">
+      <h2>Roadmap</h2>
+      <ul>
+        <li><strong>Phase 1:</strong> Launch, Stealth Mode, Viral Twitter Threads</li>
+        <li><strong>Phase 2:</strong> Telegram Raid Army, Dextools Trending</li>
+        <li><strong>Phase 3:</strong> CEX Listings, Billboard Madness</li>
+        <li><strong>Phase 4:</strong> Full Meme Domination, Real-World Utility</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function copyCA() {
+      const input = document.getElementById("contractInput");
+      input.select();
+      input.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("Contract copied!");
+    }
+  </script>
+</body>
+</html>
